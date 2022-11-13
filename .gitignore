@@ -1,0 +1,4 @@
+__pycache__
+conf/db.py
+.remote-sync.json
+.DS_Store

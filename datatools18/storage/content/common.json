@@ -1,0 +1,33 @@
+{
+  "map":
+  [
+      {
+         "ix": [
+            "отмена c_drop c_menu меню"
+            ],
+         "context":["any"],
+         "function":"drop"
+     },
+     {
+         "ix": "start /start привет назад рестарт c_back",
+         "context":["any"],
+         "function":"hello"
+     },
+
+     {
+         "ix": "привет",
+         "function":"hello"
+     },
+
+     {
+         "ix": "оставить_отзыв c_feedback",
+         "function":"feedback",
+         "context":["any"]
+      },
+      {
+          "ix": "*",
+          "context":["feedback_text"],
+          "function":"feedback_text"
+      }
+  ]
+}

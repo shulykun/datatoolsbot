@@ -1,0 +1,21 @@
+{
+  "map":[
+   {
+       "ix": "_xxx помощь help",
+       "context":["any"],
+       "text":{"text_var":"help"},
+       "tts":{"text_var":"help_tts"},
+       "menu_inline": [
+                   {"text":"Кнопка Х","callback_data":"c_button_x"},
+                   {"text":"Отмена","callback_data":"c_drop"}
+             ]
+   },
+   {
+      "ix": [
+         "drop c_drop"
+       ],
+      "context":["any"],
+      "function":"drop"
+  }
+  ]
+}
